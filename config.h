@@ -5,8 +5,10 @@ static int topbar = 1;                      /* -b  option; if 0, dmenu appears a
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
     "monospace:size=10",
-    "Noto Color Emoji:pixelsize=10:antialias=true:autohint=true"
     "Apple Color Emoji:pixelsize=10:antialias=true:autohint=true"
+    "Twemoji:pixelsize=10:antialias=true:autohint=true"
+    "Twitter Color Emoji:pixelsize=10:antialias=true:autohint=true"
+    "Noto Color Emoji:pixelsize=10:antialias=true:autohint=true"
 };
 static const unsigned int bgalpha = 0xd2;
 static const unsigned int fgalpha = OPAQUE;
